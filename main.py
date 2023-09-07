@@ -15,8 +15,7 @@ user_parameters = {
 
 }
 
-# response = requests.post(url=pixela_endpoints, json=user_parameters)
-# print(response.text)
+
 
 
 graph_endpoint = f"{pixela_endpoints}/{USERNAME}/graphs"
@@ -33,8 +32,6 @@ headers = {
     "X-USER-TOKEN": TOKEN
 }
 
-# response = requests.get(url=graph_endpoint, params=graph_parameters, headers=headers)
-# print(response.text)
 
 today = datetime.now()
 
@@ -53,7 +50,6 @@ put_endpoints={
     "quantity":"10.0"
 }
 
-# response = requests.delete(url=url, headers=headers)
-# print(response.text)
+
 
 
